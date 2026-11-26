@@ -1,0 +1,16 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "umbra-osint"
+version = "0.1.0.dev0"
+description = "Offline photo verification toolkit for OSINT"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "ardeiven" }]
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/umbra"]
