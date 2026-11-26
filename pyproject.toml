@@ -12,5 +12,8 @@ license = "MIT"
 authors = [{ name = "ardeiven" }]
 dependencies = []
 
+[project.scripts]
+umbra = "umbra.cli:main"
+
 [tool.hatch.build.targets.wheel]
 packages = ["src/umbra"]
